@@ -63,8 +63,8 @@ main {
 }
 
 #seletor button {
-    padding: 40px;
-    width: 120px;
+    padding: 30px;
+    width: 100px;
     font-size: 20px;
     color: orangered;
     -webkit-text-stroke: 1px black;
