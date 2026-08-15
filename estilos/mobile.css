@@ -1,0 +1,59 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'NarutoFonte';
+    src: url('../fontes/njnaruto.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100dvh;
+    width: 100vw;
+    background-image: url(../konoha_mobile.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+}    
+
+/* Cabeçalho */
+
+header {
+    height: 18vh;
+    font-family:'NarutoFonte';
+    color: orangered;
+    text-align: center;
+    padding-top: 15px;
+}
+
+header > h1 {
+    display: inline-block;
+    -webkit-text-stroke: 1px rgb(0, 0, 0);
+    font-size: 3em;
+    padding-bottom: 10px;
+}
+
+header > h2 {
+    display: inline-block;
+    -webkit-text-stroke: 0.5px rgb(0, 0, 0);
+    word-spacing: 10px;
+}
+
+/* Conteúdo principal */
+
+main {
+    height: 75.7vh;
+    border: 1px solid black;
+}
+
+footer {
+    height: 8vw;
+    border: 1px solid black;
+}
