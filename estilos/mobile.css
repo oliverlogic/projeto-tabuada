@@ -113,8 +113,11 @@ main {
 }
 
 #voltar {
-    width: 80px;
-    height: 80px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    font-size: 28px;
+    color: orangered;
+    -webkit-text-stroke: 1px black;
 }
 
 /* Rodapé */

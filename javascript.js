@@ -1,15 +1,17 @@
 const botoes = document.getElementsByClassName("botoes")
 const menu = document.getElementById("seletor")
 
-let interruptor = true
-
 function botao1() {
+    let tabuada = document.createElement('ul')
+
+    let seta = document.createElement('p')
+    seta.id = "voltar"
+    seta.innerText = "Voltar"
+    tabuada.prepend(seta)
     
     for (let i = 0; i < 10; i++) {
         botoes[i].style.display = "none" 
     }
-
-    let tabuada = document.createElement('ul')
 
     for (let l = 1; l <= 10; l++) {
         let item = document.createElement('li')
@@ -20,30 +22,31 @@ function botao1() {
 
         tabuada.appendChild(item)
     }
-    let seta = document.createElement('img')
-    seta.src = "seta.png"
-    seta.id = "voltar"
-    tabuada.prepend(seta)
 
     menu.appendChild(tabuada)
-}
 
-seta.onclick = function() {
-    tabuada.remove()
+    seta.onclick = function() {
+        tabuada.remove()
 
-    for (let i = 0; i < 10; i++) {
-        botoes[i].style.display = "block"
+        for (let i = 0; i < 10; i++) {
+        botoes[i].style.display = "block" 
+
+        seta.remove()
     }
-
-    interruptor = false
+    }
 }
 
 function botao2() {
+    let tabuada = document.createElement('ul')
+
+    let seta = document.createElement('p')
+    seta.id = "voltar"
+    seta.innerText = "Voltar"
+    tabuada.prepend(seta)
+
     for (let i = 0; i < 10; i++) {
         botoes[i].style.display = "none" 
     }
-
-    let tabuada = document.createElement('ul')
 
     for (let l = 1; l <= 10; l++) {
         let item = document.createElement('li')
@@ -56,14 +59,29 @@ function botao2() {
     }
 
     menu.appendChild(tabuada)
+
+    seta.onclick = function() {
+        tabuada.remove()
+
+        for (let i = 0; i < 10; i++) {
+        botoes[i].style.display = "block" 
+
+        seta.remove()
+    }
+    }
 }
 
 function botao3() {
+    let tabuada = document.createElement('ul')
+
+    let seta = document.createElement('p')
+    seta.id = "voltar"
+    seta.innerText = "Voltar"
+    tabuada.prepend(seta)
+
     for (let i = 0; i < 10; i++) {
         botoes[i].style.display = "none" 
     }
-
-    let tabuada = document.createElement('ul')
 
     for (let l = 1; l <= 10; l++) {
         let item = document.createElement('li')
@@ -76,13 +94,29 @@ function botao3() {
     }
 
     menu.appendChild(tabuada)
+
+    seta.onclick = function() {
+        tabuada.remove()
+
+        for (let i = 0; i < 10; i++) {
+        botoes[i].style.display = "block" 
+
+        seta.remove()
+    }
+    }
 }
+
 function botao4() {
+    let tabuada = document.createElement('ul')
+
+    let seta = document.createElement('p')
+    seta.id = "voltar"
+    seta.innerText = "Voltar"
+    tabuada.prepend(seta)
+
     for (let i = 0; i < 10; i++) {
         botoes[i].style.display = "none" 
     }
-
-    let tabuada = document.createElement('ul')
 
     for (let l = 1; l <= 10; l++) {
         let item = document.createElement('li')
@@ -95,13 +129,29 @@ function botao4() {
     }
 
     menu.appendChild(tabuada)
+
+    seta.onclick = function() {
+        tabuada.remove()
+
+        for (let i = 0; i < 10; i++) {
+        botoes[i].style.display = "block" 
+
+        seta.remove()
+    }
+    }
 }
+
 function botao5() {
+    let tabuada = document.createElement('ul')
+
+    let seta = document.createElement('p')
+    seta.id = "voltar"
+    seta.innerText = "Voltar"
+    tabuada.prepend(seta)
+
     for (let i = 0; i < 10; i++) {
         botoes[i].style.display = "none" 
     }
-
-    let tabuada = document.createElement('ul')
 
     for (let l = 1; l <= 10; l++) {
         let item = document.createElement('li')
@@ -114,13 +164,28 @@ function botao5() {
     }
 
     menu.appendChild(tabuada)
+
+    seta.onclick = function() {
+        tabuada.remove()
+
+        for (let i = 0; i < 10; i++) {
+        botoes[i].style.display = "block" 
+
+        seta.remove()
+    }
+    }
 }
 function botao6() {
+    let tabuada = document.createElement('ul')
+
+    let seta = document.createElement('p')
+    seta.id = "voltar"
+    seta.innerText = "Voltar"
+    tabuada.prepend(seta)
+
     for (let i = 0; i < 10; i++) {
         botoes[i].style.display = "none" 
     }
-
-    let tabuada = document.createElement('ul')
 
     for (let l = 1; l <= 10; l++) {
         let item = document.createElement('li')
@@ -133,13 +198,28 @@ function botao6() {
     }
 
     menu.appendChild(tabuada)
+
+    seta.onclick = function() {
+        tabuada.remove()
+
+        for (let i = 0; i < 10; i++) {
+        botoes[i].style.display = "block" 
+
+        seta.remove()
+    }
+    }
 }
 function botao7() {
+    let tabuada = document.createElement('ul')
+
+    let seta = document.createElement('p')
+    seta.id = "voltar"
+    seta.innerText = "Voltar"
+    tabuada.prepend(seta)
+
     for (let i = 0; i < 10; i++) {
         botoes[i].style.display = "none" 
     }
-
-    let tabuada = document.createElement('ul')
 
     for (let l = 1; l <= 10; l++) {
         let item = document.createElement('li')
@@ -152,13 +232,28 @@ function botao7() {
     }
 
     menu.appendChild(tabuada)
+
+    seta.onclick = function() {
+        tabuada.remove()
+
+        for (let i = 0; i < 10; i++) {
+        botoes[i].style.display = "block" 
+
+        seta.remove()
+    }
+    }
 }
 function botao8() {
+    let tabuada = document.createElement('ul')
+
+    let seta = document.createElement('p')
+    seta.id = "voltar"
+    seta.innerText = "Voltar"
+    tabuada.prepend(seta)
+
     for (let i = 0; i < 10; i++) {
         botoes[i].style.display = "none" 
     }
-
-    let tabuada = document.createElement('ul')
 
     for (let l = 1; l <= 10; l++) {
         let item = document.createElement('li')
@@ -171,13 +266,28 @@ function botao8() {
     }
 
     menu.appendChild(tabuada)
+
+    seta.onclick = function() {
+        tabuada.remove()
+
+        for (let i = 0; i < 10; i++) {
+        botoes[i].style.display = "block" 
+
+        seta.remove()
+    }
+    }
 }
 function botao9() {
+    let tabuada = document.createElement('ul')
+
+    let seta = document.createElement('p')
+    seta.id = "voltar"
+    seta.innerText = "Voltar"
+    tabuada.prepend(seta)
+
     for (let i = 0; i < 10; i++) {
         botoes[i].style.display = "none" 
     }
-
-    let tabuada = document.createElement('ul')
 
     for (let l = 1; l <= 10; l++) {
         let item = document.createElement('li')
@@ -190,13 +300,28 @@ function botao9() {
     }
 
     menu.appendChild(tabuada)
+
+    seta.onclick = function() {
+        tabuada.remove()
+
+        for (let i = 0; i < 10; i++) {
+        botoes[i].style.display = "block" 
+
+        seta.remove()
+    }
+    }
 }
 function botao10() {
+    let tabuada = document.createElement('ul')
+
+    let seta = document.createElement('p')
+    seta.id = "voltar"
+    seta.innerText = "Voltar"
+    tabuada.prepend(seta)
+
     for (let i = 0; i < 10; i++) {
         botoes[i].style.display = "none" 
     }
-
-    let tabuada = document.createElement('ul')
 
     for (let l = 1; l <= 10; l++) {
         let item = document.createElement('li')
@@ -209,4 +334,14 @@ function botao10() {
     }
 
     menu.appendChild(tabuada)
+
+    seta.onclick = function() {
+        tabuada.remove()
+
+        for (let i = 0; i < 10; i++) {
+        botoes[i].style.display = "block" 
+
+        seta.remove()
+    }
+    }
 }
