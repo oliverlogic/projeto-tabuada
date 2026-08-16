@@ -1,0 +1,14 @@
+@media (min-width: 992px) {
+
+    body {
+        background-image: url(../Konoha_pc.webp);
+    }
+
+    header > h1 {
+        display: block;
+    }
+
+    main {
+        padding-top: 0px;
+    }
+}
