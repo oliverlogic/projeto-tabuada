@@ -25,6 +25,7 @@ html, body {
     background-size: cover;
     background-position: center center;
     background-attachment: scroll;
+    background-color: #222222;
 
     display: flex;
     flex-direction: column;
